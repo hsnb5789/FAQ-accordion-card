@@ -108,19 +108,7 @@ body {
     cursor: pointer;
 }
 
-button {
-    position: relative;
-    right: -290px;
-    top: -20px;
-    background: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
 
-}
 
 .question {
     display: inline-block;
@@ -153,6 +141,15 @@ p {
 .question img {
     padding: 0.5px 0.5px 0px 0px;
     transform: unset;
+    position: relative;
+    right: -290px;
+    top: -15px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .active .question img {
